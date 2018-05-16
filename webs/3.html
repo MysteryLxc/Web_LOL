@@ -1,0 +1,323 @@
+<!DOCTYPE html>
+<html lang="en">
+
+	<head>
+		<title>联盟明星</title>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<link rel="stylesheet" href="../css/bootstrap.min.css">
+		<script src="../js/jquery.min.js"></script>
+		<script src="../js/bootstrap.min.js"></script>
+		<style>
+			/* Add a gray background color and some padding to the footer */
+			
+			footer {
+				background-color: #f2f2f2;
+				padding: 25px;
+			}
+			
+			.carousel-inner img {
+				width: 100%;
+				/* Set width to 100% */
+				min-height: 200px;
+			}
+			/* Hide the carousel text when the screen is less than 600 pixels wide */
+			
+			@media (max-width: 600px) {
+				.carousel-caption {
+					display: none;
+				}
+			}
+			
+			p {
+				text-indent: 2em;
+			}
+			
+			#two {
+				background-color: #101010;
+			}
+			
+			#sss {
+				background-color: #269ABC;
+			}
+			
+			#www {
+				background-color: #101010;
+			}
+		</style>
+
+		<script>
+			var _hmt = _hmt || [];
+			(function() {
+				var hm = document.createElement("script");
+				hm.src = "//hm.baidu.com/hm.js?73c27e26f610eb3c9f3feb0c75b03925";
+				var s = document.getElementsByTagName("script")[0];
+				s.parentNode.insertBefore(hm, s);
+			})();
+		</script>
+	</head>
+
+	<body>
+
+		<nav class="navbar navbar-inverse">
+			<div class="container-fluid">
+				<div class="navbar-header">
+					<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+					</button>
+					<a class="navbar-img" href="#"><img src="../img/d8f9d72a6059252d2dde7d6f379b033b5ab5b994.jpg" style="width: 120px;height: 50px;" /></a>
+				</div>
+				<div class="collapse navbar-collapse" id="myNavbar">
+					<ul class="nav navbar-nav">
+						<li class="active"><a href="../index.html#myCarousel" target="_blank">首页</a></li>
+						<li><a href="1.html" target="_blank">联盟介绍</a></li>
+						<li><a href="2.html" target="_blank">联盟赛事</a></li>
+						<li><a href="3.html" target="_blank">联盟明星</a></li>
+					</ul>
+					<ul class="nav navbar-nav navbar-right">
+						<li class="dropdown" id="fat-menu">
+							<a data-toggle="dropdown" class="dropdown-toggle" role="button" id="drop1" href="#">玩家互动<b class="caret"></b></a>
+							<ul aria-labelledby="drop1" role="menu" class="dropdown-menu">
+								<li role="presentation"><a href="http://crm2.qq.com/page/portalpage/wpa.php?uin=40012345&f=1&ty=1&ap=000011:400998:|m:11|f:Gyxlm3" tabindex="-1" role="menuitem" target="_blank">在线客服</a></li>
+								<li role="presentation"><a href="http://game.qq.com/contract.shtml" tabindex="-1" role="menuitem" target="_blank">用户协议</a></li>
+								<li role="presentation"><a href="http://bbs.lol.qq.com/forum.php" tabindex="-1" role="menuitem" target="_blank">玩家社区</a></li>
+							</ul>
+						</li>
+
+						<ul class="nav navbar-nav navbar-right">
+							<li><a data-toggle="modal" data-target="#myModa1" href="#">注册</a></li>
+							<li><a data-toggle="modal" data-target="#myModa2" href="#">登陆</a></li>
+						</ul>
+					</ul>
+
+				</div>
+			</div>
+
+			<div class="modal fade" id="myModa1" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+				<div class="modal-dialog">
+					<div class="modal-content">
+						<div class="modal-header">
+							<button type="button" class="close" data-dismiss="modal" aria-hidden="true">
+								&times;
+							</button>
+							<h1 class="modal-title" href="#">注册</h1>
+							<div class="modal-footer">
+								<form role="form">
+									<div class="form-group">
+										<label for="psw"><span class="glyphicon glyphicon-user"></span> QQ账号</label>
+										<input type="text" class="form-control" id="psw" placeholder="qq号码">
+									</div>
+									<div class="form-group">
+										<label for="usrname"><span class="glyphicon glyphicon-user"></span> 密码</label>
+										<input type="text" class="form-control" id="usrname" placeholder="密码">
+									</div>
+									<button type="submit" class="btn btn-block">注册
+										<span class="glyphicon glyphicon-ok"></span>
+									</button>
+								</form>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<!--
+	登陆模态框开始
+-->
+			<div class="modal fade" id="myModa2" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+				<div class="modal-dialog">
+					<div class="modal-content">
+						<div class="modal-header">
+							<button type="button" class="close" data-dismiss="modal" aria-hidden="true">
+								&times;
+							</button>
+							<h1 class="modal-title" href="#">登陆</h1>
+							<div class="modal-footer">
+
+								<form role="form">
+									<div class="form-group">
+										<label for="psw"><span class="glyphicon glyphicon-user"></span> QQ账号</label>
+										<input type="text" class="form-control" id="psw" placeholder="qq号码">
+									</div>
+									<div class="form-group">
+										<label for="usrname"><span class="glyphicon glyphicon-user"></span> 密码</label>
+										<input type="text" class="form-control" id="usrname" placeholder="密码">
+									</div>
+									<button type="submit" class="btn btn-block">登录
+										<span class="glyphicon glyphicon-ok"></span>
+									</button>
+								</form>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<!--
+	登陆模态框结束
+-->
+		</nav>
+
+		<div class="container" id="www">
+			<div class="row">
+				<div class="col-sm-2 sidenav">
+					<a href="#one">
+						<button class="btn btn-primary">
+							<h1>重点介绍</h4>
+						</button>
+					</a>
+					<a href="#two">
+						<button class="btn btn-danger">
+							<h2>联盟新星</h4>
+						</button>
+					</a>
+					<a href="#three">
+						<button class="btn btn-success">
+							<h3>明星战队</h4>
+						</button>
+					</a>
+					<a href="#four">
+						<button class="btn btn-primary">
+							<h4>明星赛事</h4>
+						</button>
+					</a>
+					<a href="#five">
+						<button class="btn btn-danger">
+							<h5>明星趣事</h4>
+						</button>
+					</a>
+
+				</div>
+				<div class="col-sm-6">
+					<div id="myCarousel" class="carousel slide" data-ride="carousel">
+						<!-- Indicators -->
+						<ol class="carousel-indicators">
+							<li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+							<li data-target="#myCarousel" data-slide-to="1"></li>
+						</ol>
+
+						<!-- Wrapper for slides -->
+						<div class="carousel-inner" id="one" role="listbox">
+							<div class="item active">
+								<a href="#"> <img src="../img/079fb1211beb2ed9892e29b824343d81_6d25223b5bb5c9ea76864f5ad739b6003bf3b354.jpg" style="height: 400px;" alt="Image"></a>
+								<div class="carousel-caption">
+									<h3>SKTelecom T1</h3>
+									<p>Faker</p>
+								</div>
+							</div>
+
+							<div class="item">
+								<a href="#"><img src="../img/272000e31bdcb6c237909ad1d652e22e_1402876712706.jpg" style="height: 400px;" alt="Image"></a>
+								<div class="carousel-caption">
+									<h3>皇族战队</h3>
+									<p>中间为当家ADC</p>
+								</div>
+							</div>
+						</div>
+
+						<!-- Left and right controls -->
+						<a class="left carousel-control" href="#myCarousel" role="button" data-slide="prev">
+							<span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+							<span class="sr-only">Previous</span>
+						</a>
+						<a class="right carousel-control" href="#myCarousel" role="button" data-slide="next">
+							<span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+							<span class="sr-only">Next</span>
+						</a>
+					</div>
+				</div>
+				<div class="col-sm-4" id="sss">
+					<div class="well">
+						<h4>SKT战队荣誉</h4>
+						<p>2013年10月5日，SKT T1 LOL分部在英雄联盟S3世界总决赛决赛中战胜来自中国的皇族战队获得S3全球总决赛冠军 。2015年10月31日，SKT T1 LOL分部在英雄联盟S5全球总决赛上以15胜1败的战绩夺得S5全球总决赛冠军。2016年拿到MSI季中赛冠军，完成大满贯。</p>
+					</div>
+					<div class="well">
+						<h4>SHR皇族荣誉</h4>
+						<p>2013、2014年英雄联盟分部SH皇族战队连续斩获了S3全球总决赛和S4全球总决赛两届亚军，这不仅是迄今为止中国LPL战队在Riot Games一年一度所举办的英雄联盟最高级别赛事中所取得的最好成绩，同时也成为英雄联盟史上第一支两次进入全球总决赛最终决赛、第一支连续两年进入全球总决赛最终决赛的战队。</p>
+					</div>
+				</div>
+			</div>
+			<hr>
+		</div>
+
+		<div class="container text-center" id="two">
+			<h3>联盟新星</h3>
+			<br>
+			<div class="row">
+				<div class="col-sm-3">
+					<a href="#"><img src="../img/b82cd7962c6b3708cc7c20324b848b14_201602291622244473.png" class="img-responsive" style="width:100%" alt="Image"></a>
+					<p>RNGmlxg</p>
+				</div>
+				<div class="col-sm-3">
+					<div class="well">
+						<p>中文队名：刘世宇</p>
+
+						<p>新人王并作为战队的核心发动机的麻辣香锅，在很多关键时候能站出来为队伍打开局面。擅长进攻型打野，盲僧、挖掘机和狮子狗。</p>
+
+						<p>擅长英雄：男枪、豹女、酒桶</p>
+					</div>
+
+				</div>
+				<div class="col-sm-3">
+					<a href="#"><img src="../img/55f78e82af5fc9465b00a6f784412435_201602291624591231.png" class="img-responsive" style="width:100%" alt="Image"></a>
+					<p>RNGxiaohu</p>
+				</div>
+
+				<div class="col-sm-3">
+					<div class="well">
+						<p>中文队名：李元浩</p>
+
+						<p>天才中单，对线能力极强，意识优秀，有巨大的潜力。加入RNG后，配合打野麻辣香锅皇族的中野联动将会成为一股可怕的力量。</p>
+
+						<p>擅长英雄：璐璐、妖姬、女巫</p>
+					</div>
+
+				</div>
+			</div>
+			<hr>
+		</div>
+
+		<div class="container text-center" id="three">
+			<h3>明星战队</h3>
+			<br>
+			<div class="row">
+				<div class="col-sm-2">
+					<a href="#"><img src="../img/07fe9f26888b9812d9d23c8ab590f29d_1a94b36eddc451daa880b6a1b4fd5266d11632c2.jpg" class="img-responsive" style="width:100%" alt="Image"></a>
+					<p>WE战队</p>
+				</div>
+				<div class="col-sm-2">
+					<a href="#"><img src="../img/2613f99a91b33b16cc698b35e8f2982f_d002b34bd11373f0bd49d5d5a60f4bfbfaed04c2.jpg" class="img-responsive" style="width:100%" alt="Image"></a>
+					<p>IG战队p>
+				</div>
+				<div class="col-sm-2">
+					<a href="#"><img src="../img/ca4c4c6064f01aef2b4e6dfb1bc63bd9_0.png" class="img-responsive" style="width:100%" alt="Image"></a>
+					<p>OMG战队</p>
+				</div>
+				<div class="col-sm-2">
+					<a href="#"><img src="../img/76d74b2d1eac73a42fe40f1cddcfc8b1_d041a4a1cd11728b50973668cafcc3cec2fd2c86.jpg" class="img-responsive" style="width:100%" alt="Image"></a>
+					<p>RNG战队</p>
+				</div>
+				<div class="col-sm-2">
+					<a href="#"> <img src="../img/fec60bc0009bceaa2f9854a46bf02e88_0.png" class="img-responsive" style="width:100%" alt="Image"></a>
+					<p>EDG战队</p>
+				</div>
+				<div class="col-sm-2">
+					<a href="#"><img src="../img/408733c6e977a2a56591d22cc65018d6_0.png" class="img-responsive" style="width:100%" alt="Image"></a>
+					<p> LGD战队</p>
+				</div>
+			</div>
+		</div>
+		<br>
+
+		<footer class="container-fluid text-center">
+			<ul>
+				<li style="display: inline;"><a href="#">联系我们</a></li>
+				<li style="display: inline;"><a href="#">广告推广</a></li>
+				<li style="display: inline;"><a href="#">版权所有</a></li>
+				<li style="display: inline;"><a href="#">网站协议</a></li>
+			</ul>
+		</footer>
+
+	</body>
+
+</html>

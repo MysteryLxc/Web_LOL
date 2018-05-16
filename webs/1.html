@@ -1,0 +1,248 @@
+<!DOCTYPE html>
+<html lang="en">
+
+	<head>
+		<title>联盟介绍 </title>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<link rel="stylesheet" href="../css/bootstrap.min.css">
+		<script src="../js/jquery.min.js"></script>
+		<script src="../js/bootstrap.min.js"></script>
+		<style>
+			/* Remove the navbar's default margin-bottom and rounded borders */
+			
+			.navbar {
+				margin-bottom: 0;
+				border-radius: 0;
+			}
+			/* Set height of the grid so .sidenav can be 100% (adjust as needed) */
+			
+			.row.content {
+				height: 450px
+			}
+			/* Set gray background color and 100% height */
+			
+			.sidenav {
+				padding-top: 20px;
+				background-color: #101010;
+			}
+			/* Set black background color, white text and some padding */
+			
+			footer {
+				background-color: #555;
+				color: white;
+				padding: 15px;
+			}
+			/* On small screens, set height to 'auto' for sidenav and grid */
+			
+			@media screen and (max-width: 767px) {
+				.sidenav {
+					height: auto;
+					padding: 15px;
+				}
+				.row.content {
+					height: auto;
+				}
+			}
+			
+			p {
+				text-indent: 2em;
+			}
+			
+			#rongqi {
+				background-color: #2C7C91;
+			}
+		</style>
+
+		<script>
+			var _hmt = _hmt || [];
+			(function() {
+				var hm = document.createElement("script");
+				hm.src = "//hm.baidu.com/hm.js?73c27e26f610eb3c9f3feb0c75b03925";
+				var s = document.getElementsByTagName("script")[0];
+				s.parentNode.insertBefore(hm, s);
+			})();
+		</script>
+	</head>
+
+	<body>
+
+		<nav class="navbar navbar-inverse">
+			<div class="container-fluid">
+				<div class="navbar-header">
+					<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+					</button>
+					<a class="navbar-img" href="#"><img src="../img/d8f9d72a6059252d2dde7d6f379b033b5ab5b994.jpg" style="width: 120px;height: 50px;" /></a>
+				</div>
+				<div class="collapse navbar-collapse" id="myNavbar">
+					<ul class="nav navbar-nav">
+						<li class="active"><a href="../index.html#myCarousel" target="_blank">首页</a></li>
+						<li><a href="1.html" target="_blank">联盟介绍</a></li>
+						<li><a href="2.html" target="_blank">联盟赛事</a></li>
+						<li><a href="3.html" target="_blank">联盟明星</a></li>
+					</ul>
+					<ul class="nav navbar-nav navbar-right">
+						<li class="dropdown" id="fat-menu">
+							<a data-toggle="dropdown" class="dropdown-toggle" role="button" id="drop1" href="#">玩家互动<b class="caret"></b></a>
+							<ul aria-labelledby="drop1" role="menu" class="dropdown-menu">
+								<li role="presentation"><a href="http://crm2.qq.com/page/portalpage/wpa.php?uin=40012345&f=1&ty=1&ap=000011:400998:|m:11|f:Gyxlm3" tabindex="-1" role="menuitem" target="_blank">在线客服</a></li>
+								<li role="presentation"><a href="http://game.qq.com/contract.shtml" tabindex="-1" role="menuitem" target="_blank">用户协议</a></li>
+								<li role="presentation"><a href="http://bbs.lol.qq.com/forum.php" tabindex="-1" role="menuitem" target="_blank">玩家社区</a></li>
+							</ul>
+						</li>
+
+						<ul class="nav navbar-nav navbar-right">
+							<li><a data-toggle="modal" data-target="#myModa1" href="#">注册</a></li>
+							<li><a data-toggle="modal" data-target="#myModa2" href="#">登陆</a></li>
+						</ul>
+					</ul>
+
+				</div>
+			</div>
+
+			<div class="modal fade" id="myModa1" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+				<div class="modal-dialog">
+					<div class="modal-content">
+						<div class="modal-header">
+							<button type="button" class="close" data-dismiss="modal" aria-hidden="true">
+								&times;
+							</button>
+							<h1 class="modal-title" href="#">注册</h1>
+							<div class="modal-footer">
+								<form role="form">
+									<div class="form-group">
+										<label for="psw"><span class="glyphicon glyphicon-user"></span> QQ账号</label>
+										<input type="text" class="form-control" id="psw" placeholder="qq号码">
+									</div>
+									<div class="form-group">
+										<label for="usrname"><span class="glyphicon glyphicon-user"></span> 密码</label>
+										<input type="text" class="form-control" id="usrname" placeholder="密码">
+									</div>
+									<button type="submit" class="btn btn-block">注册
+										<span class="glyphicon glyphicon-ok"></span>
+									</button>
+								</form>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<!--
+	登陆模态框开始
+-->
+			<div class="modal fade" id="myModa2" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+				<div class="modal-dialog">
+					<div class="modal-content">
+						<div class="modal-header">
+							<button type="button" class="close" data-dismiss="modal" aria-hidden="true">
+								&times;
+							</button>
+							<h1 class="modal-title" href="#">登陆</h1>
+							<div class="modal-footer">
+
+								<form role="form">
+									<div class="form-group">
+										<label for="psw"><span class="glyphicon glyphicon-user"></span> QQ账号</label>
+										<input type="text" class="form-control" id="psw" placeholder="qq号码">
+									</div>
+									<div class="form-group">
+										<label for="usrname"><span class="glyphicon glyphicon-user"></span> 密码</label>
+										<input type="text" class="form-control" id="usrname" placeholder="密码">
+									</div>
+									<button type="submit" class="btn btn-block">登录
+										<span class="glyphicon glyphicon-ok"></span>
+									</button>
+								</form>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<!--
+	登陆模态框结束
+-->
+
+		</nav>
+
+		<div class="container-fluid text-center" id="rongqi">
+			<div class="row content">
+				<div class="col-sm-2 sidenav">
+					<p>
+						<h3>更多游戏介绍</h3></p>
+					<p><a href="http://lol.qq.com/v/index.shtml">游戏视频</a></p>
+					<p><a href="http://lolriotmall.qq.com/index.html?ADTAG=lol.rk.gw.top&adunionsid=gwtop">联盟商店</a></p>
+					<p><a href="http://lol.qq.com/web201310/newbie-what.shtml">新手指导</a></p>
+					<p>
+						<h3>英雄联盟地图介绍</h3></p>
+					<p><a href="http://lolriotmall.qq.com/index.html?ADTAG=lol.rk.gw.top&adunionsid=gwtop">德玛西亚</a></p>
+					<p><a href="http://lol.qq.com/web201310/newbie-what.shtml">战争学院</a></p>
+					<p><a href="http://lol.qq.com/v/index.shtml">诺克萨斯</a></p>
+					<p><a href="http://lolriotmall.qq.com/index.html?ADTAG=lol.rk.gw.top&adunionsid=gwtop">班德尔城</a></p>
+					<p><a href="http://lol.qq.com/web201310/newbie-what.shtml">艾欧尼亚</a></p>
+					<p><a href="http://lol.qq.com/v/index.shtml">弗雷尔卓德</a></p>
+					<p><a href="http://lolriotmall.qq.com/index.html?ADTAG=lol.rk.gw.top&adunionsid=gwtop">皮尔特沃夫</a></p>
+					<p><a href="http://lol.qq.com/web201310/newbie-what.shtml">比尔吉沃特</a></p>
+					<p><a href="http://lol.qq.com/v/index.shtml">巨神峰</a></p>
+					<p><a href="http://lolriotmall.qq.com/index.html?ADTAG=lol.rk.gw.top&adunionsid=gwtop">祖安</a></p>
+					<p><a href="http://lol.qq.com/web201310/newbie-what.shtml">恕瑞玛</a></p>
+					<p><a href="http://lol.qq.com/v/index.shtml">暗影岛</a></p>
+
+					<p><a href="http://lol.qq.com/web201310/newbie-what.shtml">守望之海</a></p>
+					<p><a href="http://lol.qq.com/v/index.shtml">征服之海</a></p>
+					<p><a href="http://lol.qq.com/web201310/newbie-what.shtml">蓝焰岛</a></p>
+					<p><a href="http://lol.qq.com/web201310/newbie-what.shtml">泰安</a></p>
+
+				</div>
+				<div class="col-sm-8 text-left" id="five">
+
+					<h1>英雄联盟</h1>
+					<hr>
+					<p>《英雄联盟》（简称lol）是由美国Riot Games开发，腾讯游戏运营的全新英雄对战网游。《英雄联盟》传承经典英雄对战游戏模式，拥有海量特色个性英雄，并加入便捷天梯匹配机制、创新天赋树、符文等系统养成要素。 　　LOL自09年在欧美上市以来，迅速在中国、韩国、美国、欧洲大陆等全球范围掀起了全民英雄对战的狂潮，来自145个不同国家，数以千万计的玩家每天通过《英雄联盟》享受着在线电子竞技的快乐。《英雄联盟》一直致力于打造完善丰富的竞技体系，带给玩家专业的竞技体验，由《英雄联盟》主办的全球冠军赛Season2总奖金池高达500万美金，问鼎世界级顶尖赛事。据2013年3月官方最新数据统计，《英雄联盟》全球日常最高同时在线玩家数突破500万，全球注册玩家总数超过7000万，全球每月活跃玩家数3200万，LOL正以其席卷全球的竞技魅力引领着MOBA对战类网游细分市场，《英雄联盟》已经成为全球最受欢迎的电子竞技游戏。
+					</p>
+					<p>LOL的火热也并非一时之势，除开DOTA的主创团队对于游戏玩法的开发和新的游戏特色的加入，LOL的亲民推广和文化底蕴让这款网游被更多的网友乐于接受。当DOTA2还在开发卖激活码的道路上时，LOL已经开始通过皮肤等附加产品来进行推广和文化深入，而随着DOTA2对于平衡性的过于追求，LOL独特的创造性和推广的亲民性让它被更多的玩家所熟悉。</p>
+
+					<h1>英雄联盟游戏背景</h1>
+					<p>两次符文之战剧烈影响了瓦罗兰的地质环境，尽管人们试图聚集魔法能量来恢复这灾难性的后果，却毫无作用。剧烈的地震和恐怖的魔法风暴让整个瓦罗兰为之颤抖，对人们来说这份恐惧远超过战争的可怖。人们终于意识到世界已经承受不起符文之战的破坏。为了回应世界上不断恶化的政治和经济危机，瓦罗兰的大法师们——包括许多强大的召唤者——达成共识，所有的冲突必须以可控和系统化的方式来处理。</p>
+					<p>他们成立了一个叫“英雄联盟”的组织，目的在于监督瓦罗兰的政治纷争得以有序处理。位于战争学院的英雄联盟获得了瓦罗兰政治实体们的陆续授权，这个组织将管理处置所有政治纷争带来的结果，英雄联盟决定所有主要的政治争论都必须通过特别设立在瓦罗兰各地的竞技场来处理。拥有不同政见的召唤者们各自召唤一个英雄，这些英雄们则带领没有心智意识的小兵进行战斗，这些小兵由初阶召唤者通过召唤节点制造。</p>
+					<p><img src="../img/e4dde71190ef76c6b1f3a09f9a16fdfaaf516764.jpg" class="col-sm-4 text-left" /></p>
+					<p><img src="../img/2934349b033b5bb51737644a31d3d539b700bca6.jpg" class="col-sm-4 text-left" /></p>
+					<p><img src="../img/37d12f2eb9389b50426ba5e68235e5dde6116ee9.jpg" class="col-sm-4 text-left" /></p>
+				</div>
+				<div class="col-sm-2 sidenav">
+					<div class="well">
+						<a href="http://baike.baidu.com/link?url=TmXrGwPreRd22mSdBmxl5wYLgeo4yptpV3zfMWZkHnNXdwJuyc-X4ExpW9IOvrE6_Ti1wGwkR-BCCjYlx4atCvln_luDZ6QAva4duXFiV1i4hmro8SJu2BmBUoPr8XTje15BEhbA1ZDrGwmUcXOjwkyLCwbt2IvaMjGe7yZ68c3AcwRCg7icn8XsRiKWRS4R3whN6aFOWvTU1swD1-BgtNfGyD0C1NQCGEabksto0s3"
+						target="_blank">
+							<button class="btn btn-danger">
+								<h4>什么是英雄联盟？</h4></button>
+						</a>
+						<p>英雄联盟（League of Legends）是由美国Riot Games开发，腾讯游戏运营的全新英雄对战网游。英雄联盟的主创团队由各著名游戏公司的核心美术、策划、程序人员组成，加入更加丰富的物品合成系统、地图玩法、天梯匹配机制，独创的“召唤师”技能、符文、天赋组合，让玩家感受不一样的英雄对战网游。《英雄联盟》一直致力于打造完善丰富的竞技体系。</p>
+						<a href="http://baike.baidu.com/link?url=TmXrGwPreRd22mSdBmxl5wYLgeo4yptpV3zfMWZkHnNXdwJuyc-X4ExpW9IOvrE6_Ti1wGwkR-BCCjYlx4atCvln_luDZ6QAva4duXFiV1i4hmro8SJu2BmBUoPr8XTje15BEhbA1ZDrGwmUcXOjwkyLCwbt2IvaMjGe7yZ68c3AcwRCg7icn8XsRiKWRS4R3whN6aFOWvTU1swD1-BgtNfGyD0C1NQCGEabksto0s3"
+						target="_blank">
+							<button class="btn btn-danger">
+								<h4>英雄联盟特色</h4></button>
+						</a>
+
+						<p>
+							匹配系统的目的如下，优先级从高到低： 保护新手不被有经验的玩家虐。 创造竞技和公平的游戏对局，使玩家的游戏乐趣最大化。 无需等待太久就能找到对手进入游戏。 匹配系统尽其所能的匹配水平接近的玩家。
+						</p>
+					</div>
+
+				</div>
+
+			</div>
+		</div>
+
+		<footer class="container-fluid text-center">
+			<ul>
+				<li style="display: inline;"><a href="#">联系我们</a></li>
+				<li style="display: inline;"><a href="#">广告推广</a></li>
+				<li style="display: inline;"><a href="#">版权所有</a></li>
+				<li style="display: inline;"><a href="#">网站协议</a></li>
+			</ul>
+		</footer>
+	</body>
+
+</html>
